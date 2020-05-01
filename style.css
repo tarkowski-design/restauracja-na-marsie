@@ -1,0 +1,169 @@
+body
+{
+margin: 0;
+padding: 0;
+background-color: #dbdbdb;
+}
+#container
+{
+overflow: hidden;
+background-color: #ffffff;
+max-width: 1000px;
+border: black solid 1.8px;
+border-radius:140px 140px;
+margin-left: auto;
+margin-right: auto;
+font-family: 'Roboto', sans-serif;
+}
+.tlo
+{
+  margin-top: 0px;
+  padding: 0;
+  border-radius:140px 140px;
+height: 430px;
+width: 100%;
+background-image: url(tlo.jpg);
+}
+.rtitle
+{
+font-family: 'Lato', sans-serif;
+text-align: center;
+}
+article img
+{
+margin-top: 1%;
+width: 50%;
+border-radius:140px 140px;
+}
+#go
+{
+margin-bottom: 2%;
+font-family: 'Source Sans Pro', sans-serif;
+text-align: center;
+color: black;
+font-size: 30px;
+}
+.tlostopka
+{
+width:100%;
+height: 500px;
+border-radius:130px 130px;
+background-image: url('https://cdn.pixabay.com/photo/2014/06/11/17/00/cook-366875_960_720.jpg');
+}
+.foto1
+{
+padding: 10px;
+margin-left: 10px;
+}
+#text1
+{
+padding: 20px;
+width: 45%;
+margin-top: -27%;
+float: right;
+text-align: center;
+font-size: 32px;
+}
+.foto2
+{
+float: right;
+padding: 10px;
+}
+#text2
+{
+padding: 10px;
+margin-left: 20px;
+width: 45%;
+margin-top: -27%;
+float: left;
+text-align: center;
+font-size: 32px;
+}
+.foto3
+{
+padding: 10px;
+margin-left: 10px;
+}
+#text3
+{
+padding: 20px;
+margin-left: 70px;
+width: 45%;
+margin-top: -25%;
+float: right;
+text-align: center;
+font-size: 32px;
+}
+.foto4
+{
+float: right;
+padding: 20px;
+margin-left: 10px;
+}
+#text4
+{
+padding: 2%;
+margin-left: -1%;
+width: 45%;
+margin-top: -25%;
+float: left;
+text-align: center;
+font-size: 32px;
+}
+footer
+{
+clear: both;
+display: block;
+}
+.tlkoo
+{
+  float: right;
+  text-align: center;
+  position: relative;
+  margin-top: 10%;
+  color: white;
+  margin-right: 2%;
+  max-width: 50%;
+
+}
+.tlostopkak
+{
+  float: left;
+  text-align: center;
+  position: relative;
+  margin-top: 1%;
+  color: white;
+  margin-right: 15%;
+  max-width: 50%;
+  padding-left:30px;
+  padding: 5%;
+}
+/*start @media*/
+@media (max-width:680px){
+  .foto1, .foto2, .foto3, .foto4{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 15%;
+  }
+}
+@media (max-width:680px){
+  #text1, #text2, #text3, #text4{
+    width: 100%;
+    margin: 0;
+    padding: 1px;
+    position: relative;
+    top: -10px
+  }
+}
+@media (max-width:680px){
+  .tlkoo, .tlostopkak{
+    margin: 1%;
+    font-size: 15px;
+    margin-top: 1%;
+    margin-left: 25%;
+    margin-right:25%;
+    color: #edff87;
+    margin-bottom: 0%;
+  }
+}
